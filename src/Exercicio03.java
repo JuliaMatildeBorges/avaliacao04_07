@@ -9,7 +9,7 @@ public class Exercicio03 {
         System.out.println("Qual a sua idade?");
         int idadeUsuario = scanner.nextInt();
 
-        System.out.println("Você é estudade? Digite S para sim ou N para nao");
+        System.out.println("Você é estudante? Digite S para sim ou N para nao");
         String simOuNaoEstudante = scanner.next();
 
         if ((idadeUsuario < 6) || (idadeUsuario >65)){
